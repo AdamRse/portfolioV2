@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Une petite <span className="purple"> PRESENTATION </span>
+              A propos de moi <span className="purple"></span>
             </h1>
             <p className="home-about-body">
               Je code depuis 2012, pour des projets perso, et parfois professionels en tant que freelance.
@@ -35,7 +35,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Ma soif de conaissances m'amène également à consommer quotidiennempent de la vulgarisation <b className="purple">vulgarisation scientifique</b> sur de nombreux domaines variés,
+              Ma soif de conaissances m'amène également à consommer quotidiennempent de la <b className="purple">vulgarisation scientifique</b> sur de nombreux domaines variés,
               comme <b className="purple">l'astronomie, la psycho-socio, ou la philosohie</b>.
             </p>
           </Col>
