@@ -1,68 +1,56 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
+import { FaPhp, FaReact, FaBootstrap, FaSass, FaSymfony, FaLaravel, FaGithub, FaNodeJs } from "react-icons/fa";
+import { VscTerminalBash } from "react-icons/vsc";
+import { TbBrandTypescript } from "react-icons/tb";
+import { SiMysql, SiApache, SiTailwindcss } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <FaPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <IoLogoJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <VscTerminalBash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <TbBrandTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <FaReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <FaBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <FaSass />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaSymfony />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <FaLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <FaNodeJs />
+      </Col>v
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiApache />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <FaGithub />
       </Col>
     </Row>
   );
