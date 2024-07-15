@@ -19,7 +19,7 @@ function Home2() {
               A propos de moi <span className="purple"></span>
             </h1>
             <p className="home-about-body">
-              Je code depuis 2012, pour des projets perso, et parfois professionels en tant que freelance.
+              Je code depuis 2012, pour des projets perso, et parfois professionnels en tant que freelance.
               J'ai beaucoup codé from scratch et j'essaye toujours de savoir comment fonctionnent les choses !
               <br />
               <br />J'ai beaucoup utilisé
@@ -28,15 +28,17 @@ function Home2() {
               </i>
               <br />
               <br />
-              J'aime découvrir de nouvelles façons de nouvelles façons de&nbsp;
+              J'aime découvrir de nouvelles façons de&nbsp;
               <i>
-                <b className="purple">Programmer </b>, que ce soit sur <b className="purple">mon serveur web</b> ou sur d'autres architectures comme sur mon{" "}
-                <b className="purple">Raspberry Pi</b>
+                <b className="purple">Programmer </b>, que ce soit sur <b className="purple">mon serveur web</b>
+                ou sur d'autres architectures comme sur mon{" "}
+                <b className="purple">Raspberry Pi</b>.
               </i>
               <br />
               <br />
-              Ma soif de conaissances m'amène également à consommer quotidiennempent de la <b className="purple">vulgarisation scientifique</b> sur de nombreux domaines variés,
-              comme <b className="purple">l'astronomie, la psycho-socio, ou la philosohie</b>.
+              Ma soif de connaissances m'amène également à consommer quotidiennement de la <b className="purple">vulgarisation scientifique</b>
+              sur de nombreux domaines variés,
+              comme <b className="purple">l'astronomie, la psycho-socio, ou la philosophie</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

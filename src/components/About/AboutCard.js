@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             J'ai 34 ans, actuellement en formation développeur web au garage404 à <span className="purple">ROANNE (42)</span>.
             <br />
-            Etant spécialisé dans le code <span className="purple">from scratch</span> via mon auto-entreprise, je cherche à gagner de l'expérience dans le <span className="purple">travail d'équipe</span>,
+            Étant spécialisé dans le code <span className="purple">from scratch</span> via mon auto-entreprise, je cherche à gagner de l'expérience dans le <span className="purple">travail d'équipe</span>,
             et sur les <span className="purple">frameworks et bibliothèques populaires</span>.
             <br />
             Parmi mes principaux hobbies :
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> La vulgarisation scientifique 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Les jeux vidéos
+              <ImPointRight /> Les jeux vidéo
             </li>
           </ul>
 
