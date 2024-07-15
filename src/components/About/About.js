@@ -41,7 +41,7 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          Mes <strong className="purple">outils</strong>
         </h1>
         <Toolstack />
 
