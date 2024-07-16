@@ -30,13 +30,13 @@ function Home2() {
               <br />
               J'aime découvrir de nouvelles façons de&nbsp;
               <i>
-                <b className="purple">Programmer </b>, que ce soit sur <b className="purple">mon serveur web</b>
+                <b className="purple">Programmer </b>, que ce soit sur <b className="purple">mon serveur web </b>
                 ou sur d'autres architectures comme sur mon{" "}
                 <b className="purple">Raspberry Pi</b>.
               </i>
               <br />
               <br />
-              Ma soif de connaissances m'amène également à consommer quotidiennement de la <b className="purple">vulgarisation scientifique</b>
+              Ma soif de connaissances m'amène également à consommer quotidiennement de la <b className="purple">vulgarisation scientifique </b>
               sur de nombreux domaines variés,
               comme <b className="purple">l'astronomie, la psycho-socio, ou la philosophie</b>.
             </p>
