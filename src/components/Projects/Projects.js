@@ -32,6 +32,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={exponentielle}
+              isBlog={false}
+              title="L'Exponentielle"
+              description="Site vitrine et e-commerce pour un festival de science fictif. Technologie : WordPress (Elementor)"
+              demoLink="https://lexponentielle.projets.p8.garage404.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={rpg}
               isBlog={false}
               title="RPG rumble"
@@ -48,17 +58,7 @@ function Projects() {
               title="Météo"
               description="Application météo basée sur l'API openweather.com. Technologie : React"
               ghLink="https://github.com/AdamRse/react-meteo"
-              demoLink="https://meteo.adam.rousselle.me/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={exponentielle}
-              isBlog={false}
-              title="L'Exponentielle"
-              description="Site vitrine et e-commerce pour un festival de science fictif. Technologie : WordPress (Elementor)"
-              demoLink="https://lexponentielle.projets.p8.garage404.com/"              
+              demoLink="https://meteo.adam.rousselle.me/"
             />
           </Col>
         </Row>
