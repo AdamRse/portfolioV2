@@ -35,7 +35,7 @@ function Projects() {
               imgPath={exponentielle}
               isBlog={false}
               title="L'Exponentielle"
-              description="Site vitrine et e-commerce pour un festival de science fictif. Technologie : WordPress (Elementor)"
+              description="Site vitrine et e-commerce collaboratif pour un festival de science fictif. Technologie : WordPress (Elementor)"
               demoLink="https://lexponentielle.projets.p8.garage404.com/"
             />
           </Col>
