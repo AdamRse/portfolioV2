@@ -42,7 +42,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaNodeJs />
-      </Col>v
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
