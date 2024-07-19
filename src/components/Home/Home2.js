@@ -57,8 +57,10 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  alt="Lien vers mon github"
+                  aria-label="Lien vers mon github"
                 >
-                  <AiFillGithub />
+                  <AiFillGithub aria-label="github icon" />
                 </a>
               </li>
               <li className="social-icons">
@@ -67,6 +69,8 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  alt="Lien vers mon Linked In"
+                  aria-label="Lien vers mon Linked In"
                 >
                   <FaLinkedinIn />
                 </a>
