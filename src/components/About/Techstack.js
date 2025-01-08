@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-import { FaPhp, FaReact, FaBootstrap, FaSass, FaSymfony, FaLaravel, FaGithub, FaNodeJs } from "react-icons/fa";
+import { FaPhp, FaReact, FaBootstrap, FaSass, FaSymfony, FaLaravel, FaNodeJs } from "react-icons/fa";
 import { VscTerminalBash } from "react-icons/vsc";
 import { TbBrandTypescript } from "react-icons/tb";
-import { SiMysql, SiApache, SiTailwindcss } from "react-icons/si";
+import { SiMysql, SiApache, SiTailwindcss, SiAngular } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 
 function Techstack() {
@@ -24,6 +24,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaBootstrap />
@@ -48,9 +51,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApache />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaGithub />
       </Col>
     </Row>
   );
