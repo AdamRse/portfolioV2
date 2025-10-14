@@ -8,7 +8,7 @@ COPY package*.json ./
 # Installer les dépendances et créer le cache avec les bonnes permissions
 RUN npm install && \
     mkdir -p /app/node_modules/.cache && \
-    chmod -R 777 /app/node_modules/.cache
+    chown -R node:node /app/node_modules/.cache
 
 # Copier le reste du code source
 COPY . .

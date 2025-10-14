@@ -1,6 +1,4 @@
 # docker-compose.yml
-version: '3.8'
-
 services:
   react-dev:
     build: 
@@ -15,9 +13,9 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
       - WDS_SOCKET_PORT=0
-    user: "1000:1000"
     stdin_open: true
     tty: true
+    init: true
     networks:
       - react-network
 
