@@ -28,7 +28,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             J'ai beaucoup codé from scratch avant l'IA, et m'intéresse davantage aux <span className="purple">bonnes pratiques</span>, comme les <span className="purple">design patterns</span> et le paradigme <span className="purple">SOLID</span>.
             <br/>
-            Je considère que l'IA peut apporter beaucoup au développeur, mais qu'elle ne peut pas le remplacer ; les connaissances restent <span className="purple">fondamentales</span> pour maintenir un projet.
+            Je considère que l'<span className="purple">IA</span> peut apporter beaucoup au développeur, mais qu'elle ne peut pas le remplacer ; les connaissances restent <span className="purple">fondamentales</span> pour maintenir un projet.
           </p>
           <p style={{ textAlign: "justify" }}>
             J'administre plusieurs serveurs <span className="purple">Debian</span> et j'apprends seul à utiliser <span className="purple">Docker</span> et <span className="purple">Kubernetes</span> pour déployer des projets.
