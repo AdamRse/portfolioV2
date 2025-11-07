@@ -6,6 +6,19 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const calculateAge = () => {
+    const birthDate = new Date('1990-05-03');
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    
+    return age;
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -15,7 +28,9 @@ function Home2() {
               A propos de moi <span className="purple"></span>
             </h1>
             <p className="home-about-body">
-              Je code depuis 2012, pour des projets perso, et parfois professionnels en tant que freelance.
+              J'ai {calculateAge()} ans, actuellement en formation de concepteur d'applications web au garage404 à <span className="purple">ROANNE (42)</span>.
+              <br />
+              Je code depuis 2012, pour des projets perso, et professionnels en tant que freelance.
               J'ai beaucoup codé from scratch et j'essaye toujours de savoir comment fonctionnent les choses !
               <br />
               <br />J'ai beaucoup utilisé

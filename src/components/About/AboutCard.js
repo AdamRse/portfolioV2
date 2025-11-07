@@ -22,6 +22,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
+            Je suis <span className="purple">généraliste</span> dans mon approche du développement web, je considère qu'il est important d'avoir des connaissances
+            <span className="purple"> Front</span>, <span className="purple">Back</span>, et aussi <span className="purple">administration système</span>, pour une meilleure <span className="purple">vue d'ensemble</span>.
+          </p>
+          <p style={{ textAlign: "justify" }}>
+            J'ai beaucoup codé from scratch avant l'IA, et m'intéresse davantage aux <span className="purple">bonnes pratiques</span>, comme les <span className="purple">design patterns</span> et le paradigme <span className="purple">SOLID</span>.
+            <br/>
+            Je considère que l'IA peut apporter beaucoup au développeur, mais qu'elle ne peut pas le remplacer ; les connaissances restent <span className="purple">fondamentales</span> pour maintenir un projet.
+          </p>
+          <p style={{ textAlign: "justify" }}>
+            J'administre plusieurs serveurs <span className="purple">Debian</span> et j'apprends seul à utiliser <span className="purple">Docker</span> et <span className="purple">Kubernetes</span> pour déployer des projets.
+          </p>
+          {/* <p style={{ textAlign: "justify" }}>
             J'ai {calculateAge()} ans, actuellement en formation de concepteur d'applications web au garage404 à <span className="purple">ROANNE (42)</span>.
             <br />
             Étant spécialisé dans le code <span className="purple">from scratch</span> via mon auto-entreprise, je cherche à gagner de l'expérience dans le <span className="purple">travail d'équipe</span>,
@@ -31,10 +43,10 @@ function AboutCard() {
             Grâce à mon diplôme de développeur web et web mobile obtenu fin 2024, cumulé à mon expérience d'auto-entreprise et ma pratique du web, je suis <span className="purple">rapidement opérationnel</span>.
             <br />
             Parmi mes principaux hobbies :
-          </p>
+          </p> */}
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Le code
+              <ImPointRight /> La programmation et les systèmes Linux
             </li>
             <li className="about-activity">
               <ImPointRight /> La vulgarisation scientifique 
