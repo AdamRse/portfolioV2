@@ -6,8 +6,9 @@ import money_report from "../../Assets/Projects/money-report.png";
 import ubuntu_ls from "../../Assets/Projects/ubuntu-ls.png";
 import pokefight from "../../Assets/Projects/project1.png";
 import rpg from "../../Assets/Projects/project2.png";
-import meteo from "../../Assets/Projects/project3.png";
+//import meteo from "../../Assets/Projects/project3.png";
 import exponentielle from "../../Assets/Projects/exponentielle.png";
+import vestiaire from "../../Assets/Projects/Vestiaire-Officiel.png";
 
 function Projects() {
   return (
@@ -30,6 +31,18 @@ function Projects() {
               ghLink="https://github.com/AdamRse/money-report"
               demoLink="https://money-report.adam.rousselle.me/"
               technos="Laravel avec Eloquent"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vestiaire}
+              isBlog={false}
+              title="Vestiaire Officiel"
+              description="Site créé pour l'entreprise Vestiaire Officiel (Partie Front-End)"
+              ghLink="https://github.com/AdamRse/vestaire-officiel-front"
+              demoLink="https://vestaire-officiel-front.vercel.app/"
+              technos="Angular, Tailwind"
             />
           </Col>
 
@@ -79,7 +92,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={meteo}
               isBlog={false}
@@ -89,7 +102,7 @@ function Projects() {
               demoLink="https://meteo.adam.rousselle.me/"
               technos="React"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
