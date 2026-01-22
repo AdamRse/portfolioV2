@@ -9,6 +9,7 @@ import rpg from "../../Assets/Projects/project2.png";
 //import meteo from "../../Assets/Projects/project3.png";
 import exponentielle from "../../Assets/Projects/exponentielle.png";
 import vestiaire from "../../Assets/Projects/Vestiaire-Officiel.png";
+import conteur from "../../Assets/Projects/conteur.png";
 
 function Projects() {
   return (
@@ -30,7 +31,18 @@ function Projects() {
               description="Application de simplification de déclaration de revenus. Application des principes SOLID et des design pattern."
               ghLink="https://github.com/AdamRse/money-report"
               demoLink="https://money-report.adam.rousselle.me/"
-              technos="Laravel avec Eloquent"
+              technos="Laravel"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={conteur}
+              isBlog={false}
+              title="Conteur"
+              description="Scripts de création de projets web conteneurisés"
+              ghLink="https://github.com/AdamRse/conteur"
+              technos="Bash, Docker"
             />
           </Col>
 
@@ -53,7 +65,30 @@ function Projects() {
               title="Automatisation Linux"
               description="Divers programmes bash pour simplifier l'utilisation de linux."
               ghLink="https://github.com/AdamRse/ubuntu_local_scripts"
-              technos="Bash, Make, Argbash"
+              technos="Bash"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exponentielle}
+              isBlog={false}
+              title="L'Exponentielle"
+              description="Site vitrine et e-commerce collaboratif pour un festival de science fictif."
+              demoLink="https://lexponentielle.projets.p8.garage404.com/"
+              technos="WordPress (Elementor)"
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rpg}
+              isBlog={false}
+              title="RPG rumble"
+              description="Un jeu de combat tour par tour."
+              ghLink="https://github.com/AdamRse/react-combat404"
+              demoLink="https://react-combat404-8x1j4izcw-adamrses-projects.vercel.app"
+              technos="React"
             />
           </Col>
 
@@ -66,29 +101,6 @@ function Projects() {
               ghLink="https://github.com/AdamRse/pokefight"
               demoLink="https://pokemon.adam.rousselle.me/"
               technos="PHP et javascript from scratch, tailwindCSS"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={exponentielle}
-              isBlog={false}
-              title="L'Exponentielle"
-              description="Site vitrine et e-commerce collaboratif pour un festival de science fictif."
-              demoLink="https://lexponentielle.projets.p8.garage404.com/"
-              technos="WordPress (Elementor)"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={rpg}
-              isBlog={false}
-              title="RPG rumble"
-              description="Un jeu de combat tour par tour."
-              ghLink="https://github.com/AdamRse/react-combat404"
-              demoLink="https://react-combat404-8x1j4izcw-adamrses-projects.vercel.app"
-              technos="React"
             />
           </Col>
 
